@@ -17,6 +17,7 @@
 smart-house/
 ├── smart_house.py    המחלקה SmartHome
 ├── main.py           נקודת הכניסה, הדגמה של השימוש במחלקה
+├── lessons/          שיעורי פייתון מהבסיס, על נושא הבית החכם
 ├── tests/            בדיקות אוטומטיות
 ├── pyproject.toml    הגדרות הפרויקט והתלויות
 └── .python-version   גרסת פייתון לפרויקט
@@ -32,6 +33,20 @@ uv run python main.py
 
 ```bash
 uv run pytest
+```
+
+## שיעורים
+
+קבצים עצמאיים להרצה, שמלמדים את יסודות השפה על אותו נושא של בית חכם. כל קובץ מחולק לחלקים, עם הסבר בהערות ותרגיל בסוף.
+
+| קובץ | נושא |
+| --- | --- |
+| `lessons/01_print_and_variables.py` | הדפסה למסך, משתנים, טיפוסים, מחרוזות מעוצבות |
+| `lessons/02_input_smart_house.py` | קליטת נתונים מהמשתמש, המרת טיפוסים, בדיקת תקינות |
+
+```bash
+uv run python lessons/01_print_and_variables.py
+uv run python lessons/02_input_smart_house.py
 ```
 
 ## שלבי הפיתוח
