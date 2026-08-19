@@ -39,15 +39,25 @@ uv run pytest
 
 קבצים עצמאיים להרצה, שמלמדים את יסודות השפה על אותו נושא של בית חכם. כל קובץ מחולק לחלקים, עם הסבר בהערות ותרגיל בסוף.
 
-| קובץ | נושא |
-| --- | --- |
-| `lessons/01_print_and_variables.py` | הדפסה למסך, משתנים, טיפוסים, מחרוזות מעוצבות |
-| `lessons/02_input_smart_house.py` | קליטת נתונים מהמשתמש, המרת טיפוסים, בדיקת תקינות |
+| קובץ | נושא | מילות מפתח |
+| --- | --- | --- |
+| `lessons/01_print_and_variables.py` | הדפסה למסך, משתנים, טיפוסים, מחרוזות מעוצבות | `print`, `type`, `f"..."` |
+| `lessons/02_input_smart_house.py` | קליטת נתונים מהמשתמש, המרת טיפוסים, בדיקת תקינות | `input`, `int`, `while` |
+| `lessons/03_def_if_return.py` | פונקציות, פרמטרים, תנאים, וערך מוחזר | `def`, `if`, `elif`, `else`, `return` |
+| `lessons/04_lists_dicts_log.py` | רשימות, מילונים, לולאות, ורישום פעולות ללוג | `list`, `dict`, `for`, `in`, `log` |
+| `lessons/05_class_and_self.py` | מחלקה, אובייקט, ומה בעצם עושה המילה `self` | `class`, `__init__`, `self`, `__str__` |
+
+הסדר בין השיעורים אינו מקרי. כל שיעור נגמר בבעיה שהשיעור הבא בא לפתור: השיעור על הקלט נגמר בקוד משוכפל, שהפונקציות פותרות. השיעור על הפונקציות נגמר במשתנה נפרד לכל חדר, שהמילון פותר. השיעור על המילון נגמר במשתנים גלובליים, שהמחלקה פותרת.
 
 ```bash
 uv run python lessons/01_print_and_variables.py
 uv run python lessons/02_input_smart_house.py
+uv run python lessons/03_def_if_return.py
+uv run python lessons/04_lists_dicts_log.py
+uv run python lessons/05_class_and_self.py
 ```
+
+`lessons/02` מחכה שתקלידו תשובות. שאר השיעורים רצים מקצה לקצה בלי התערבות.
 
 ## שלבי הפיתוח
 

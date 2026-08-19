@@ -149,3 +149,16 @@ print(f"lights: living {light_living_room}%, kitchen {light_kitchen}%, bedroom {
 # 2. הוסיפו משתנה בוליאני בשם alarm_on והדפיסו שורה בדוח המצב.
 # 3. שנו את שם הבית והריצו שוב. שימו לב שהשינוי במקום אחד
 #    משפיע על כל השורות שמשתמשות במשתנה.
+print("office light: 0%")   
+
+print("alarm_on: False")
+
+house_name = "My Home"
+
+print("--- home status ---")
+print(f"name:   {house_name}")
+print(f"door:   {door_status}")
+print(f"window: {window_status}")
+print(f"lights: living {light_living_room}%, kitchen {light_kitchen}%, bedroom {light_bedroom}%")
+print("office light: 0%")   
+print("alarm_on: False")
